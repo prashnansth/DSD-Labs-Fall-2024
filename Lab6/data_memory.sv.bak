@@ -1,0 +1,27 @@
+module data_memory(
+input logic clk, rst
+input logic[31:0] A, //address
+input logic[31:0] WD, //input data
+input logic WE, //enable input
+output logic[31:0] RD,
+output logic[31:0] prode 
+);
+
+reg [255:0] mem [0:31]; //256 x 32 memory file
+assign prode = mem[1]; 
+
+always @(posedge clk, negedge rst) begin
+    if(!rst) begin
+        for(int i = 0; i < 256; i++) begin
+            registers[i] <= i;
+        end        
+    end
+    else begin
+        if(WE) begin
+            mem[A] <= WD;
+        end
+        RD <= mem[A];
+    end
+end
+
+endmodule

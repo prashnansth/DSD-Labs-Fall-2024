@@ -1,28 +1,28 @@
 # do single_path_risc_architecture.do
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 13:15:33 on Nov 13,2024
+# Start time: 23:40:37 on Nov 20,2024
 # vlog -work work single_path_risc_architecture.vo 
-# -- Compiling module top
+# -- Compiling module top_i_type
 # -- Compiling module hard_block
 # 
 # Top level modules:
-# 	top
-# End time: 13:15:33 on Nov 13,2024, Elapsed time: 0:00:00
+# 	top_i_type
+# End time: 23:40:37 on Nov 20,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 13:15:33 on Nov 13,2024
-# vlog -work work waveform_top.vwf.vt 
-# -- Compiling module top_vlg_vec_tst
+# Start time: 23:40:37 on Nov 20,2024
+# vlog -work work Waveform2.vwf.vt 
+# -- Compiling module top_i_type_vlg_vec_tst
 # 
 # Top level modules:
-# 	top_vlg_vec_tst
-# End time: 13:15:33 on Nov 13,2024, Elapsed time: 0:00:00
+# 	top_i_type_vlg_vec_tst
+# End time: 23:40:37 on Nov 20,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vsim -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.top_vlg_vec_tst 
-# Start time: 13:15:33 on Nov 13,2024
-# Loading work.top_vlg_vec_tst
-# Loading work.top
+# vsim -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.top_i_type_vlg_vec_tst 
+# Start time: 23:40:37 on Nov 20,2024
+# Loading work.top_i_type_vlg_vec_tst
+# Loading work.top_i_type
 # Loading work.hard_block
 # Loading cycloneive_ver.cycloneive_io_obuf
 # Loading cycloneive_ver.cycloneive_io_ibuf
@@ -33,7 +33,7 @@
 # Loading altera_ver.dffeas
 # Loading altera_ver.PRIM_GDFF_LOW
 # after#26
-# ** Note: $finish    : waveform_top.vwf.vt(57)
-#    Time: 1 us  Iteration: 0  Instance: /top_vlg_vec_tst
-# End time: 13:15:33 on Nov 13,2024, Elapsed time: 0:00:00
+# ** Note: $finish    : Waveform2.vwf.vt(67)
+#    Time: 1 us  Iteration: 0  Instance: /top_i_type_vlg_vec_tst
+# End time: 23:40:37 on Nov 20,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0

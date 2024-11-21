@@ -33,10 +33,10 @@ ALU t1(
 .ALUResult(ALUResult)
 );
 
-/*
-display t2(.data_in(prode_register_file), 
-.segments(display_led));
-*/
+
+//display t2(.data_in(prode_register_file), 
+//.segments(display_led));
+
 endmodule
 
 
