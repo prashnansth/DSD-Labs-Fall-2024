@@ -1,0 +1,1 @@
+module sword (input logic sw, reset, clk, output logic v);

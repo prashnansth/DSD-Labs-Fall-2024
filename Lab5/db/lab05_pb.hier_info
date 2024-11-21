@@ -1,0 +1,120 @@
+|game
+clk => clk.IN2
+n => n.IN1
+s => s.IN1
+e => e.IN1
+w => w.IN1
+reset => reset.IN2
+s6 << room:r.s6
+win << room:r.win
+s5 << room:r.s5
+d << room:r.d
+s4 << room:r.s4
+s3 << room:r.s3
+sw << sw.DB_MAX_OUTPUT_PORT_TYPE
+s2 << room:r.s2
+s1 << room:r.s1
+s0 << room:r.s0
+v << v.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|game|sword:swo
+sw => nextState.DATAA
+reset => nextState.OUTPUTSELECT
+reset => nextState.DATAB
+clk => clk.IN1
+v <= d_ff:d.q
+
+
+|game|sword:swo|d_ff:d
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|game|room:r
+clk => clk.IN7
+n => nextState[2].IN1
+s => always0.IN0
+s => always0.IN0
+e => always0.IN0
+e => always0.IN1
+e => nextState.DATAA
+e => nextState.DATAA
+w => nextState[2].IN1
+w => nextState[4].OUTPUTSELECT
+w => nextState[5].OUTPUTSELECT
+w => nextState[3].DATAA
+v => nextState.DATAA
+v => nextState.DATAA
+reset => nextState.OUTPUTSELECT
+reset => nextState.OUTPUTSELECT
+reset => nextState.OUTPUTSELECT
+reset => nextState.OUTPUTSELECT
+reset => nextState[2].IN1
+reset => nextState[3].OUTPUTSELECT
+reset => nextState[4].OUTPUTSELECT
+reset => nextState[5].OUTPUTSELECT
+reset => Selector7.IN11
+reset => Selector7.IN12
+reset => Selector7.IN13
+reset => Selector7.IN14
+reset => Selector7.IN15
+reset => always0.IN1
+reset => always0.IN1
+reset => Selector8.IN1
+reset => Selector10.IN2
+s6 <= Equal6.DB_MAX_OUTPUT_PORT_TYPE
+win <= Equal7.DB_MAX_OUTPUT_PORT_TYPE
+s5 <= Equal5.DB_MAX_OUTPUT_PORT_TYPE
+d <= Equal8.DB_MAX_OUTPUT_PORT_TYPE
+s4 <= Equal4.DB_MAX_OUTPUT_PORT_TYPE
+s3 <= Equal3.DB_MAX_OUTPUT_PORT_TYPE
+sw <= Equal9.DB_MAX_OUTPUT_PORT_TYPE
+s2 <= Equal2.DB_MAX_OUTPUT_PORT_TYPE
+s1 <= Equal1.DB_MAX_OUTPUT_PORT_TYPE
+s0 <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|game|room:r|d_ff:d0
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|game|room:r|d_ff:d1
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|game|room:r|d_ff:d2
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|game|room:r|d_ff:d3
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|game|room:r|d_ff:d4
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|game|room:r|d_ff:d5
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|game|room:r|d_ff:d6
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

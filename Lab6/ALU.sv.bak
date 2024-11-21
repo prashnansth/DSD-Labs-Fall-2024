@@ -1,0 +1,21 @@
+module ALU(
+    input logic[31:0] SrcA,
+    input logic[31:0] SrcB,
+    input logic[2:0] ALUControl,
+    input logic[31:0] ALUResult
+  );
+
+  if(ALUControl == 010)
+  begin
+    assign ALUResult = SrcA + SrcB;
+  end
+  else if(ALUControl == 110)
+  begin
+    assign ALUResult = SrcA - SrcB;
+  end
+  else
+  begin
+    assign ALUResult = SrcA;
+  end
+
+endmodule

@@ -1,0 +1,172 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Prashanth/Desktop/DSD Labs/DSD-Labs-Fall-2024/Lab5/simulation/qsim
+vgame
+Z1 !s110 1729213027
+!i10b 1
+!s100 dm0ePIRd=MkaB8lBf1kfk0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I9chO_aYk5N2Kd9c:A`d^Q0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1729213026
+Z5 8lab05_pb.vo
+Z6 Flab05_pb.vo
+!i122 52
+L0 32 1259
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1729213027.000000
+Z9 !s107 lab05_pb.vo|
+Z10 !s90 -work|work|lab05_pb.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vgame_vlg_vec_tst
+R1
+!i10b 1
+!s100 z4E;cC9al?i91XPc5RKTP0
+R2
+I59YFP2g_TemP`k2k6HN[n0
+R3
+R0
+R4
+8loseWaveform.vwf.vt
+FloseWaveform.vwf.vt
+!i122 53
+L0 30 94
+R7
+r1
+!s85 0
+31
+R8
+!s107 loseWaveform.vwf.vt|
+!s90 -work|work|loseWaveform.vwf.vt|
+!i113 1
+R11
+R12
+vhard_block
+R1
+!i10b 1
+!s100 @S_UOfLW2j=e2k7hA16>U3
+R2
+I1MJnGRFamYUXHDHDIG^MG3
+R3
+R0
+R4
+R5
+R6
+!i122 52
+L0 1292 34
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vroom
+Z13 !s110 1729088589
+!i10b 1
+!s100 14S7jn9J[Ij`24oKM=QMM2
+R2
+IV8I[k3njHNdQY<3akAdQ@0
+R3
+R0
+Z14 w1729088588
+R5
+R6
+!i122 34
+L0 32 1216
+R7
+r1
+!s85 0
+31
+!s108 1729088588.000000
+R9
+R10
+!i113 1
+R11
+R12
+vroom_vlg_vec_tst
+R13
+!i10b 1
+!s100 jfj?]]74bT8]56MMiBI2V2
+R2
+IdJ;7WC>3CzYUdJaH<gDn[2
+R3
+R0
+R14
+8room.vwf.vt
+Froom.vwf.vt
+!i122 35
+L0 30 105
+R7
+r1
+!s85 0
+31
+!s108 1729088589.000000
+!s107 room.vwf.vt|
+!s90 -work|work|room.vwf.vt|
+!i113 1
+R11
+R12
+vsword
+Z15 !s110 1729054190
+!i10b 1
+!s100 76jho`1UJQmQ[LEDRM>^51
+R2
+I4;CAn=7NKFbo6l>2Ji_P_3
+R3
+R0
+Z16 w1729054189
+R5
+R6
+!i122 2
+L0 32 123
+R7
+r1
+!s85 0
+31
+Z17 !s108 1729054190.000000
+R9
+R10
+!i113 1
+R11
+R12
+vsword_vlg_vec_tst
+R15
+!i10b 1
+!s100 E]ToVcDC1C?A3LUeMCfL]3
+R2
+InSN4mb@boXWH3b6ORJ2Oh0
+R3
+R0
+R16
+8swordWaveform.vwf.vt
+FswordWaveform.vwf.vt
+!i122 3
+L0 30 47
+R7
+r1
+!s85 0
+31
+R17
+!s107 swordWaveform.vwf.vt|
+!s90 -work|work|swordWaveform.vwf.vt|
+!i113 1
+R11
+R12

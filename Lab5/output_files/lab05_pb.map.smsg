@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at room.sv(70): always construct contains both blocking and non-blocking assignments File: C:/Users/Prashanth/Desktop/DSD Labs/DSD-Labs-Fall-2024/Lab5/room.sv Line: 70
